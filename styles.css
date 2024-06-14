@@ -1,0 +1,73 @@
+.eclipse-deco {
+    position: absolute;
+    inset: 50%;
+    z-index: 0;
+}
+
+#ecllipse1 {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: -26vh;
+    left: 20vw;
+    animation: idle1 3s infinite ease-in-out;
+}
+
+#ecllipse2 {
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 6.57vh;
+    left: 22vw;
+    animation: idle2 3.2s infinite ease-in-out;
+}
+
+#ecllipse3 {
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 22vh;
+    left: 4vw;
+    transform: scale(1.2);
+    animation: idle3 2.75s infinite ease-out;
+}
+
+@keyframes idle1 {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes idle2 {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-7px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes idle3 {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+/* Social Media Icons */
+.social-media-icon {
+    z-index: 20;
+    position: absolute;
+}
